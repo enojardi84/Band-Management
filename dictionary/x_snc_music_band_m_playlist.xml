@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Playlist" max_length="40" name="x_snc_music_band_m_playlist" type="collection">
+        <element label="Band" max_length="32" name="band" reference="x_snc_music_band_m_band" type="reference"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="band"/>
+        </index>
+    </element>
+</database>

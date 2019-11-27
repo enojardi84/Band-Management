@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Song" max_length="40" name="x_snc_music_band_m_song" type="collection">
+        <element label="Band" max_length="32" name="band" reference="x_snc_music_band_m_band" type="reference"/>
+        <element label="Cover" max_length="40" name="cover" type="boolean"/>
+        <element label="Cover Artist Name(s)" max_length="40" name="cover_artist_name_s" type="string"/>
+        <element label="Cover Song Name(s)" max_length="40" name="cover_song_name_s" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element display="true" label="Song" max_length="80" name="song" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Special Notes" max_length="255" name="special_notes" type="string"/>
+        <element choice="1" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Idea" sequence="0" value="Idea"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Ready" sequence="2" value="Ready"/>
+                <element inactive_on_update="false" label="Suspended" sequence="3" value="Suspended"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="band"/>
+        </index>
+    </element>
+</database>

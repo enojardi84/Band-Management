@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Playlist Song" max_length="40" name="x_snc_music_band_m_playlist_song_m2m" type="collection">
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Playlist" max_length="32" name="playlist" reference="x_snc_music_band_m_playlist" type="reference"/>
+        <element label="Song" max_length="32" name="song" reference="x_snc_music_band_m_song" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Special Notes" max_length="40" name="special_notes" type="string"/>
+        <index name="index">
+            <element name="song"/>
+        </index>
+        <index name="index2">
+            <element name="playlist"/>
+        </index>
+    </element>
+</database>

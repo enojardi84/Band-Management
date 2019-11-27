@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Band Management">26bd6826db51c850da248a8b3a961912</application>
+        <filter/>
+        <name>Show Opportunities</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_music_band_m.show_opportunity_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 14:13:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a00c89a6dbd1c850da248a8b3a9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Opportunities</sys_name>
+        <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+        <sys_update_name>sys_ui_module_a00c89a6dbd1c850da248a8b3a9619c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 14:13:51</sys_updated_on>
+        <table>x_snc_music_band_m_show_opportunity</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</application>
+        <file_path/>
+        <instance_id>89a03cd6db1bef003050ac44d4961999</instance_id>
+        <instance_name>enojardi</instance_name>
+        <name>sys_ui_module_a00c89a6dbd1c850da248a8b3a9619c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Band Management">26bd6826db51c850da248a8b3a961912</application><filter/><name>Show Opportunities</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_music_band_m.show_opportunity_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-26 14:13:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a00c89a6dbd1c850da248a8b3a9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Show Opportunities</sys_name><sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package><sys_policy/><sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope><sys_update_name>sys_ui_module_a00c89a6dbd1c850da248a8b3a9619c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-26 14:13:51</sys_updated_on><table>x_snc_music_band_m_show_opportunity</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>714953473</payload_hash>
+        <record_name>Show Opportunities</record_name>
+        <reverted_from/>
+        <source>7fdb4462dbdd8850da248a8b3a961985</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 14:13:51</sys_created_on>
+        <sys_id>a80c89a6dbd1c850da248a8b3a9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ea80fb1a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 14:13:51</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e00c89a621d1c850762244fea4c5fbc7</update_guid>
+        <update_guid_history>e00c89a621d1c850762244fea4c5fbc7:714953473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 14:18:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>06b2a733aad3496d81806dc21f4d9ea1</sys_id>
+        <sys_metadata>a00c89a6dbd1c850da248a8b3a9619c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Opportunities</sys_name>
+        <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+        <sys_scope_delete display_value="">031c302e8d54431aab62155804843ee4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_a00c89a6dbd1c850da248a8b3a9619c6</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_a00c89a6dbd1c850da248a8b3a9619c6">a80c89a6dbd1c850da248a8b3a9619c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 14:18:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

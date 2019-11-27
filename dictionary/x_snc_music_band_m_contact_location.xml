@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Contacts" max_length="40" name="x_snc_music_band_m_contact_location" type="collection">
+        <element label="Contact" max_length="32" name="contact" reference="x_snc_music_band_m_contact" type="reference"/>
+        <element label="Location" max_length="32" name="location" reference="x_snc_music_band_m_location" type="reference"/>
+        <index name="index">
+            <element name="contact"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

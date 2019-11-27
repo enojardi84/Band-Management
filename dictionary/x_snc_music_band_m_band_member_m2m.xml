@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Band Members" max_length="40" name="x_snc_music_band_m_band_member_m2m" type="collection">
+        <element label="Band" max_length="32" name="band" reference="x_snc_music_band_m_band" type="reference"/>
+        <element label="Member" max_length="32" name="member" reference="x_snc_music_band_m_band_member" type="reference"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Guest" sequence="0" value="Guest"/>
+                <element inactive_on_update="false" label="Permanent" sequence="1" value="Permanent"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="member"/>
+        </index>
+        <index name="index2">
+            <element name="band"/>
+        </index>
+    </element>
+</database>

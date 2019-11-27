@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Band Management">dc4f84e2dbdd8850da248a8b3a96196d</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Band Members</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_music_band_m_band_member</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_music_band_m.band_member_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 12:01:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aabd6826db51c850da248a8b3a96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Band Members</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+        <sys_update_name>sys_app_module_aabd6826db51c850da248a8b3a96190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 12:01:32</sys_updated_on>
+        <timeline_page/>
+        <title>Band Members</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</application>
+        <file_path/>
+        <instance_id>89a03cd6db1bef003050ac44d4961999</instance_id>
+        <instance_name>enojardi</instance_name>
+        <name>sys_app_module_aabd6826db51c850da248a8b3a96190e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Band Management">dc4f84e2dbdd8850da248a8b3a96196d</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Band Members</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_music_band_m_band_member</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_music_band_m.band_member_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-26 12:01:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aabd6826db51c850da248a8b3a96190e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Band Members</sys_name><sys_overrides/><sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package><sys_policy/><sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope><sys_update_name>sys_app_module_aabd6826db51c850da248a8b3a96190e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-26 12:01:32</sys_updated_on><timeline_page/><title>Band Members</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>573495928</payload_hash>
+        <record_name>Band Members</record_name>
+        <reverted_from/>
+        <source>7fdb4462dbdd8850da248a8b3a961985</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 12:01:32</sys_created_on>
+        <sys_id>eabd6826db51c850da248a8b3a961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ea79691220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 12:01:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>26bd6826d551c8508c507bd2ece74a11</update_guid>
+        <update_guid_history>26bd6826d551c8508c507bd2ece74a11:573495928</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Band Members">303dd1eadb15c850da248a8b3a96199f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 15:28:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>37a0a8d3d45947c6978f6d4cb50a2804</sys_id>
+        <sys_metadata>aabd6826db51c850da248a8b3a96190e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Band Members</sys_name>
+        <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+        <sys_scope_delete display_value="">031c302e8d54431aab62155804843ee4</sys_scope_delete>
+        <sys_update_name>sys_app_module_aabd6826db51c850da248a8b3a96190e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_aabd6826db51c850da248a8b3a96190e">eabd6826db51c850da248a8b3a961911</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 15:28:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

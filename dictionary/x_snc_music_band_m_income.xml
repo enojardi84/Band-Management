@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Income" max_length="40" name="x_snc_music_band_m_income" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Amount" max_length="20" name="amount" type="price"/>
+        <element label="Band" max_length="32" name="band" reference="x_snc_music_band_m_band" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Show" max_length="32" name="show" reference="x_snc_music_band_m_show" type="reference"/>
+        <index name="index">
+            <element name="show"/>
+        </index>
+        <index name="index2">
+            <element name="band"/>
+        </index>
+    </element>
+</database>

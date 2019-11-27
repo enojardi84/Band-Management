@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Member Contribution" max_length="40" name="x_snc_music_band_m_member_song" type="collection">
+        <element label="Contribution" max_length="4000" name="contribution" reference="x_snc_music_band_m_instrument" type="glide_list"/>
+        <element label="Member" max_length="32" name="member" reference="x_snc_music_band_m_band_member" type="reference"/>
+        <element label="Song" max_length="32" name="song" reference="x_snc_music_band_m_song" type="reference"/>
+        <index name="index">
+            <element name="song"/>
+        </index>
+        <index name="index2">
+            <element name="member"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Rehearsal" max_length="40" name="x_snc_music_band_m_rehearsal" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Attendance" max_length="1024" name="attendance" reference="x_snc_music_band_m_band_member" type="glide_list"/>
+        <element label="Band" max_length="32" name="band" reference="x_snc_music_band_m_band" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="Location" max_length="40" name="location" reference="x_snc_music_band_m_location" reference_qual="type=Rehearsal^EQ" reference_qual_condition="type=Rehearsal^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Playlists" max_length="4000" name="playlists" reference="x_snc_music_band_m_playlist" type="glide_list"/>
+        <element label="Songs" max_length="4000" name="songs" reference="x_snc_music_band_m_song" type="glide_list"/>
+        <element choice="3" default="Scheduled" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="Scheduled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="band"/>
+        </index>
+    </element>
+</database>

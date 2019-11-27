@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Album Song M2m" max_length="40" name="x_snc_music_band_m_album_song_m2m" type="collection">
+        <element label="Album" max_length="32" name="album" reference="x_snc_music_band_m_album" type="reference"/>
+        <element label="Song" max_length="32" name="song" reference="x_snc_music_band_m_song" type="reference"/>
+        <index name="index">
+            <element name="song"/>
+        </index>
+        <index name="index2">
+            <element name="album"/>
+        </index>
+    </element>
+</database>

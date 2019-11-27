@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Show Opportunity" max_length="40" name="x_snc_music_band_m_show_opportunity" type="collection">
+        <element label="Band" max_length="32" name="band" reference="x_snc_music_band_m_band" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Location" max_length="32" name="location" reference="x_snc_music_band_m_location" reference_qual="type=Show^EQ" reference_qual_condition="type=Show^EQ" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Primary Contact" max_length="32" name="primary_contact" reference="x_snc_music_band_m_contact" type="reference"/>
+        <element label="Short description" max_length="40" name="short_description" type="string"/>
+        <element choice="3" default="In Progress" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-TBDTARGET-x_snc_music_band_m_show_opportunity" sequence="0" value="-TBDTARGET-x_snc_music_band_m_show_opportunity"/>
+                <element inactive_on_update="false" label="On Hold" sequence="0" value="On Hold"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="Rejected"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="primary_contact"/>
+        </index>
+    </element>
+</database>

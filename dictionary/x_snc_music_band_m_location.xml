@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Location" max_length="40" name="x_snc_music_band_m_location" type="collection">
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Postcode" max_length="40" name="postcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Region" max_length="40" name="region" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Brisbane" sequence="0" value="brisbane"/>
+                <element inactive_on_update="false" label="Gold Coast" sequence="1" value="gold_coast"/>
+                <element inactive_on_update="false" label="Sunshine Coast" sequence="2" value="sunshine_coast"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="qld" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="QLD" sequence="0" value="qld"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Suburb" max_length="40" name="suburb" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rehearsal" sequence="0" value="Rehearsal"/>
+                <element inactive_on_update="false" label="Show" sequence="1" value="Show"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Website / Instagram" max_length="80" name="website_instagram" type="url"/>
+    </element>
+</database>

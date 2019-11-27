@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Expense" max_length="40" name="x_snc_music_band_m_band_expense" type="collection">
+        <element label="Band" max_length="32" name="band" reference="x_snc_music_band_m_band" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element display="true" label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Paid by" max_length="4000" name="paid_by" reference="x_snc_music_band_m_band_member" type="glide_list"/>
+        <element label="Rehearsal" max_length="32" name="rehearsal" reference="x_snc_music_band_m_rehearsal" type="reference"/>
+        <element label="Show" max_length="32" name="show" reference="x_snc_music_band_m_show" type="reference"/>
+        <element label="Total" max_length="20" name="total" type="price"/>
+        <index name="index">
+            <element name="rehearsal"/>
+        </index>
+        <index name="index2">
+            <element name="show"/>
+        </index>
+        <index name="index3">
+            <element name="band"/>
+        </index>
+    </element>
+</database>

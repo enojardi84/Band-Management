@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 14:13:51</sys_created_on>
+        <sys_id>f80c89a6dbd1c850da248a8b3a9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_music_band_m_show_opportunity.x_snc_music_band_m.show_opportunity_user</sys_name>
+        <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+        <sys_security_acl display_value="x_snc_music_band_m_show_opportunity">7c0c89a6dbd1c850da248a8b3a9619d3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f80c89a6dbd1c850da248a8b3a9619d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 14:13:51</sys_updated_on>
+        <sys_user_role display_value="x_snc_music_band_m.show_opportunity_user" name="x_snc_music_band_m.show_opportunity_user">280cc5a6dbd1c850da248a8b3a961931</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</application>
+        <file_path/>
+        <instance_id>89a03cd6db1bef003050ac44d4961999</instance_id>
+        <instance_name>enojardi</instance_name>
+        <name>sys_security_acl_role_f80c89a6dbd1c850da248a8b3a9619d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-26 14:13:51</sys_created_on><sys_id>f80c89a6dbd1c850da248a8b3a9619d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_music_band_m_show_opportunity.x_snc_music_band_m.show_opportunity_user</sys_name><sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package><sys_policy/><sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope><sys_security_acl display_value="x_snc_music_band_m_show_opportunity">7c0c89a6dbd1c850da248a8b3a9619d3</sys_security_acl><sys_update_name>sys_security_acl_role_f80c89a6dbd1c850da248a8b3a9619d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-26 14:13:51</sys_updated_on><sys_user_role display_value="x_snc_music_band_m.show_opportunity_user" name="x_snc_music_band_m.show_opportunity_user">280cc5a6dbd1c850da248a8b3a961931</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1053962717</payload_hash>
+        <record_name>x_snc_music_band_m_show_opportunity.x_snc_music_band_m.show_opportunity_user</record_name>
+        <reverted_from/>
+        <source>7fdb4462dbdd8850da248a8b3a961985</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 14:13:51</sys_created_on>
+        <sys_id>b00c89a6dbd1c850da248a8b3a9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ea80fb2d80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 14:13:51</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f80c89a681d1c850f775ab699c9651d8</update_guid>
+        <update_guid_history>f80c89a681d1c850f775ab699c9651d8:1053962717</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_music_band_m_show_opportunity.x_snc_music_band_m.show_opportunity_user">2dfc8de6dbd1c850da248a8b3a961958</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 14:18:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1a7e65bea67444af83ddaa37a3fb6c71</sys_id>
+        <sys_metadata>f80c89a6dbd1c850da248a8b3a9619d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_music_band_m_show_opportunity.x_snc_music_band_m.show_opportunity_user</sys_name>
+        <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+        <sys_parent display_value="">7c0c89a6dbd1c850da248a8b3a9619d3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+        <sys_scope_delete display_value="">031c302e8d54431aab62155804843ee4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_f80c89a6dbd1c850da248a8b3a9619d6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_f80c89a6dbd1c850da248a8b3a9619d6">b00c89a6dbd1c850da248a8b3a9619d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 14:18:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

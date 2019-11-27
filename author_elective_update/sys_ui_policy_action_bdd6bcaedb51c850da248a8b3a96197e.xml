@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>mashup_song_name_s</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 12:41:26</sys_created_on>
+        <sys_id>bdd6bcaedb51c850da248a8b3a96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mashup_song_name_s</sys_name>
+        <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+        <sys_update_name>sys_ui_policy_action_bdd6bcaedb51c850da248a8b3a96197e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 12:41:26</sys_updated_on>
+        <table>x_snc_music_band_m_song</table>
+        <ui_policy display_value="If mashup is true">96a678aedb51c850da248a8b3a96194e</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</application>
+        <file_path/>
+        <instance_id>89a03cd6db1bef003050ac44d4961999</instance_id>
+        <instance_name>enojardi</instance_name>
+        <name>sys_ui_policy_action_bdd6bcaedb51c850da248a8b3a96197e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>mashup_song_name_s</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-26 12:41:26</sys_created_on><sys_id>bdd6bcaedb51c850da248a8b3a96197e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>mashup_song_name_s</sys_name><sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package><sys_policy/><sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope><sys_update_name>sys_ui_policy_action_bdd6bcaedb51c850da248a8b3a96197e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-26 12:41:26</sys_updated_on><table>x_snc_music_band_m_song</table><ui_policy display_value="If mashup is true">96a678aedb51c850da248a8b3a96194e</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-45729652</payload_hash>
+        <record_name>mashup_song_name_s</record_name>
+        <reverted_from/>
+        <source>7fdb4462dbdd8850da248a8b3a961985</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 12:41:26</sys_created_on>
+        <sys_id>0bd6bcaedb51c850da248a8b3a9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ea7bb17680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 12:41:26</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>43d6bcae0751c8506c8b953d11bdc5b6</update_guid>
+        <update_guid_history>43d6bcae0751c8506c8b953d11bdc5b6:-45729652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-26 12:57:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>079536bf33dd4eba9f1866dfec450a39</sys_id>
+        <sys_metadata>bdd6bcaedb51c850da248a8b3a96197e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mashup_song_name_s</sys_name>
+        <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+        <sys_parent display_value="If mashup is true">96a678aedb51c850da248a8b3a96194e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+        <sys_scope_delete display_value="">031c302e8d54431aab62155804843ee4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_bdd6bcaedb51c850da248a8b3a96197e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_bdd6bcaedb51c850da248a8b3a96197e">0bd6bcaedb51c850da248a8b3a9619b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-26 12:57:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

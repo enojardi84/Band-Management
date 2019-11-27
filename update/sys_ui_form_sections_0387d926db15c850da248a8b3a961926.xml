@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0387d926db15c850da248a8b3a961926" sys_domain="global" table="x_snc_music_band_m_show" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-26 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8387d926db15c850da248a8b3a961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_music_band_m_show" name="x_snc_music_band_m_show" sys_domain="global" view="Default view">0387d926db15c850da248a8b3a961926</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_music_band_m_show" sys_domain="global" view="Default view">bd371526db15c850da248a8b3a961987</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-26 15:04:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-26 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f87d926db15c850da248a8b3a961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_music_band_m_show" name="x_snc_music_band_m_show" sys_domain="global" view="Default view">0387d926db15c850da248a8b3a961926</sys_ui_form>
+            <sys_ui_section caption="More Details" display_value="More Details" name="x_snc_music_band_m_show" sys_domain="global" view="Default view">8387d926db15c850da248a8b3a961925</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-26 15:04:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_music_band_m_show</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-26 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0387d926db15c850da248a8b3a961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_music_band_m_show</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Music Band Management" source="x_snc_music_band_m">7bdb4462dbdd8850da248a8b3a961983</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Music Band Management">7bdb4462dbdd8850da248a8b3a961983</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0387d926db15c850da248a8b3a961926</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-26 15:04:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Show" max_length="40" name="x_snc_music_band_m_show" type="collection">
+        <element label="Band" max_length="32" name="band" reference="x_snc_music_band_m_band" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Date and time" max_length="40" name="date_and_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
+        <element label="Attendance" max_length="40" name="est_attendance" type="integer"/>
+        <element label="Location" max_length="32" name="location" reference="x_snc_music_band_m_location" type="reference"/>
+        <element label="Opportunity" max_length="32" name="opportunity" reference="x_snc_music_band_m_show_opportunity" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Playlist(s)" max_length="1024" name="playlist" reference="x_snc_music_band_m_playlist" type="glide_list"/>
+        <element label="Quote" max_length="20" name="quote" type="currency"/>
+        <index name="index">
+            <element name="opportunity"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="band"/>
+        </index>
+    </element>
+</database>
